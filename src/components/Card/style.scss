@@ -1,0 +1,27 @@
+.cardPokemon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    // border: 2px solid gray;
+    background: linear-gradient(#D1913C, #FFD194);
+    max-width: 200px;
+    height: 150px;
+    width: 100%;
+}
+
+.cardPokemon h1 {
+    font-family: "arial";
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+
+.cardPokemon h4 {
+    font-family: "arial";
+    font-weight: bold;
+    color: #fff700;
+}
