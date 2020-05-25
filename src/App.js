@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.scss';
+import Routes from './routes/routes';
 
 function App() {
   return (
-    <p>test</p>
+    <>
+      <Routes />
+    </>
   );
 }
 
